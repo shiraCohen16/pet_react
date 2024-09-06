@@ -1,5 +1,5 @@
 import axios from 'axios';
-const ServiceUrl ='http://localhost:3000/pets';
+const ServiceUrl ='https://nodejs-pets.onrender.com/pets';
 // Get all pets
 export const GetAllPets = async () => {
     try {
