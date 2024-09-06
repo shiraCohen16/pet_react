@@ -1,5 +1,5 @@
 import axios from 'axios';
-const ServiceUrl ='http://localhost:3000/users';
+const ServiceUrl ='https://nodejs-pets.onrender.com/users';
 
 //register user:
 export const registerUser = async (userData)=>{
